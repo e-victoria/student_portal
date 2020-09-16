@@ -3,11 +3,11 @@
  -->
 
 <aura:component description="Header" extends="forceCommunity:navigationMenuBase" implements="forceCommunity:availableForAllPageTypes" access="global">
-    <div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
-        <ul onclick="{!c.onClick}">
+    <div class="nav__wrapper">
+        <ul class="nav__list" onclick="{!c.onClick}">
             <aura:iteration items="{!v.menuItems}" var="item">
                 <li class="{!item.active ? 'slds-is-active' : ''}">
-                    <a href="javascript:void(0);" data-menu-item-id="{!item.id}" class="slds-navigation-list--vertical__action slds-text-link--reset">
+                    <a href="javascript:void(0);" data-menu-item-id="{!item.id}" class="nav__link">
                         {!item.label}
                     </a>
                 </li>
