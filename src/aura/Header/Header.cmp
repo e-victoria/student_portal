@@ -1,0 +1,26 @@
+<!--
+ - Created by viktoriaeremeeva on 16/09/2020.
+ -->
+
+<aura:component description="Header" extends="forceCommunity:navigationMenuBase" implements="forceCommunity:availableForAllPageTypes" access="global">
+    <div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
+        <ul onclick="{!c.onClick}">
+            <aura:iteration items="{!v.menuItems}" var="item">
+                <li class="{!item.active ? 'slds-is-active' : ''}">
+                    <a href="javascript:void(0);" data-menu-item-id="{!item.id}" class="slds-navigation-list--vertical__action slds-text-link--reset">
+                        {!item.label}
+                    </a>
+                </li>
+            </aura:iteration>
+        </ul>
+    </div>
+<!--    <aura:attribute name="navBar" type="Aura.Component[]" required="false"/>-->
+<!--    <div class="navigation">-->
+<!--        {!v.navBar}-->
+<!--    </div>-->
+<!--    <nav class="nav">-->
+<!--        <ul class="nav__list">-->
+<!--            <li class="nav__item"><a class="nav__link" href="/studentportal2">home</a></li>-->
+<!--        </ul>-->
+<!--    </nav>-->
+</aura:component>
