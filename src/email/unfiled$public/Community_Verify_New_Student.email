@@ -1,0 +1,11 @@
+New Student: {!Approval_Requesting_User.Contact}
+First Name: {!Approval_Requesting_User.FirstName}
+Last Name: {!Approval_Requesting_User.LastName}
+Email: {!Approval_Requesting_User.Email}
+Phone: {!Approval_Requesting_User.Phone}
+
+Commens: {!ApprovalRequest.Process_Name}
+
+External Approval URL: {!ApprovalRequest.External_URL}
+
+Internal Approval URL:  {!ApprovalRequest.Internal_URL}

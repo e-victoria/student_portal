@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <choices>
+        <name>c_010bc111_fb8c_49cc_8b49_75a9673f5b67</name>
+        <choiceText>Date</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Date</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_0856f40e_56cc_4c98_b844_d141418b3f34</name>
+        <choiceText>Datetime</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Datetime</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_0ccd434e_59b0_4faa_898b_081f4998f637</name>
+        <choiceText>Long</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Long</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_0ce5b9e2_7a6c_4ead_a6f1_e7560b4180d1</name>
+        <choiceText>Standard object attribute</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Standard object attribute</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_19639f5b_80d0_4725_9e30_e6e7ba52a778</name>
+        <choiceText>App Page</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>App Page</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_29205af1_d994_427a_bdc3_b8e1acd31d5f</name>
+        <choiceText>Drag-and-drop Components in the Lightning App Builder and Community Builder.</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Drag-and-drop Components in the Lightning App Builder and Community Builder.</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_43d25b42_b9bd_47dd_b1e7_2663344d3b58</name>
+        <choiceText>Integer</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Integer</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_4a11216a_f448_4730_8290_777dc70f339d</name>
+        <choiceText>Map</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Map</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_4d7621d2_14be_44c9_87d0_d3cf3cfaa110</name>
+        <choiceText>Launch a Lightning Component as a Quick Action</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Launch a Lightning Component as a Quick Action</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_70da0e40_2d42_4e1f_afc3_96bea3fc39a1</name>
+        <choiceText>String</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>String</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_7e66a032_587d_40fc_899e_985bd50e559d</name>
+        <choiceText>Override Standard Actions with Lightning Components</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Override Standard Actions with Lightning Components</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_7e76e95a_a2d0_4c36_a766_7c64b119994e</name>
+        <choiceText>Custom object attribute</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Custom object attribute</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_9547bdcd_bf10_460d_9c8e_41bf634bbbcf</name>
+        <choiceText>Decimal</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Decimal</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_9da28888_5b3d_420a_a371_6df5d2f18cbe</name>
+        <choiceText>Add Lightning Components to Lightning Experience Record Pages.</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Add Lightning Components to Lightning Experience Record Pages.</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_a79e5b27_bb4d_41fd_a40f_0ed0ba2d4f03</name>
+        <choiceText>The org default</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>The org default</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_aff98a3d_0f62_449c_8ff9_803dcdc2ec57</name>
+        <choiceText>Set</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Set</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_b6d0da7b_90f6_43f1_8ec8_8b9a750aa7f2</name>
+        <choiceText>Record Page</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Record Page</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_c636cbc5_11dc_456d_a8c6_903cf89918e4</name>
+        <choiceText>App default &amp;ndash; this overrides the assignment done at the org level</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>App default – this overrides the assignment done at the org level</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_c8817baa_d64e_4ac2_acaf_1230527c5918</name>
+        <choiceText>Add Lightning Components to Lightning Pages.</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Add Lightning Components to Lightning Pages.</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_cbfba2ae_d57f_447f_a4c0_9ee488292f95</name>
+        <choiceText>Array</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Array</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_d5626dea_de43_4cbb_bdda_2aa4d11a2635</name>
+        <choiceText>Home Page</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Home Page</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_e27662ff_4deb_41c6_b3c5_cb00407a3687</name>
+        <choiceText>Boolean</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Boolean</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_e3298ef4_39a9_4b13_bdfa_ae47e741bb64</name>
+        <choiceText>Double</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Double</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_ee8ae130_bb32_4934_89b8_855ee019ae1f</name>
+        <choiceText>Create Stand-Alone Apps</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Create Stand-Alone Apps</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_f217b743_3907_4e6f_93ba_9f2b59495bd2</name>
+        <choiceText>App, record type, profile &amp;ndash; this overrides the assignment done at org level and at the App level.</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>App, record type, profile – this overrides the assignment done at org level and at the App level.</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_f99ea7f8_1cb6_4c8c_99f2_bd7d1c44cfd8</name>
+        <choiceText>List</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>List</stringValue>
+        </value>
+    </choices>
+    <interviewLabel>test</interviewLabel>
+    <label>test</label>
+    <processMetadataValues>
+        <name>BrandingSet</name>
+        <value>
+            <stringValue>test_426a4cd3_ae71_47a5_a0c5_74d4ab77f97e</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>autoProgressEnabled</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>hasWelcomePage</name>
+        <value>
+            <booleanValue>true</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>overrideActiveVersion</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processType>Survey</processType>
+    <screens>
+        <name>p_0cdfbac3_e0f4_40f1_b654_ff5acd6d3fcd</name>
+        <label>Page 2</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_82a05eb6_4139_40c4_9bde_c19380619d02</targetReference>
+        </connector>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_9521d61e_27b0_42f2_b82c_f6f408f21221</name>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeShortText</extensionName>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-family: Chivo, sans-serif; font-size: 16px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;2. How do you build Lightning Components?&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentInput</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <pausedText>To pick up where you left off, refresh this page, or open the survey again.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_75e74560_990b_4b6a_b25f_97e2e11e769e</name>
+        <label>Page 6</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_fd3c5ff1_8626_4ba3_80e1_3dc49e8439d6</name>
+            <choiceReferences>c_70da0e40_2d42_4e1f_afc3_96bea3fc39a1</choiceReferences>
+            <choiceReferences>c_43d25b42_b9bd_47dd_b1e7_2663344d3b58</choiceReferences>
+            <choiceReferences>c_e27662ff_4deb_41c6_b3c5_cb00407a3687</choiceReferences>
+            <choiceReferences>c_010bc111_fb8c_49cc_8b49_75a9673f5b67</choiceReferences>
+            <choiceReferences>c_0856f40e_56cc_4c98_b844_d141418b3f34</choiceReferences>
+            <choiceReferences>c_e3298ef4_39a9_4b13_bdfa_ae47e741bb64</choiceReferences>
+            <choiceReferences>c_9547bdcd_bf10_460d_9c8e_41bf634bbbcf</choiceReferences>
+            <choiceReferences>c_0ccd434e_59b0_4faa_898b_081f4998f637</choiceReferences>
+            <choiceReferences>c_cbfba2ae_d57f_447f_a4c0_9ee488292f95</choiceReferences>
+            <choiceReferences>c_f99ea7f8_1cb6_4c8c_99f2_bd7d1c44cfd8</choiceReferences>
+            <choiceReferences>c_aff98a3d_0f62_449c_8ff9_803dcdc2ec57</choiceReferences>
+            <choiceReferences>c_4a11216a_f448_4730_8290_777dc70f339d</choiceReferences>
+            <choiceReferences>c_0ce5b9e2_7a6c_4ead_a6f1_e7560b4180d1</choiceReferences>
+            <choiceReferences>c_7e76e95a_a2d0_4c36_a766_7c64b119994e</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-family: Chivo, sans-serif; font-size: 16px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;6. What are the types of attributes that we can use to store values?&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>MultiSelectCheckboxes</fieldType>
+            <helpText>Select all possible answers. 
+We can use different types of attributes, listed below:</helpText>
+            <isRequired>false</isRequired>
+        </fields>
+        <pausedText>To pick up where you left off, refresh this page, or open the survey again.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_82a05eb6_4139_40c4_9bde_c19380619d02</name>
+        <label>Page 3</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_f82ef48b_5bdd_423f_8273_aed08d493766</targetReference>
+        </connector>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_540aa3fc_c731_4f4b_9296_76afc11b95cc</name>
+            <choiceReferences>c_19639f5b_80d0_4725_9e30_e6e7ba52a778</choiceReferences>
+            <choiceReferences>c_d5626dea_de43_4cbb_bdda_2aa4d11a2635</choiceReferences>
+            <choiceReferences>c_b6d0da7b_90f6_43f1_8ec8_8b9a750aa7f2</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimePicklist</extensionName>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-family: Chivo, sans-serif; font-size: 16px;&quot;&gt;3. How can you create Lightning Record Pages in Salesforce, and what are the different types?&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>We can make use of Lightning App Builder for creating Lightning Record Pages, to create the following three types of pages:</helpText>
+            <isRequired>false</isRequired>
+        </fields>
+        <pausedText>To pick up where you left off, refresh this page, or open the survey again.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_a7fd7b71_1e5d_4607_991d_0c8a6b95e307</name>
+        <label>1. Where we can use Lightning Components?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_0cdfbac3_e0f4_40f1_b654_ff5acd6d3fcd</targetReference>
+        </connector>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_a0998b0d_f8a8_42eb_b2b8_5ab8faa8d7db</name>
+            <choiceReferences>c_29205af1_d994_427a_bdc3_b8e1acd31d5f</choiceReferences>
+            <choiceReferences>c_c8817baa_d64e_4ac2_acaf_1230527c5918</choiceReferences>
+            <choiceReferences>c_9da28888_5b3d_420a_a371_6df5d2f18cbe</choiceReferences>
+            <choiceReferences>c_4d7621d2_14be_44c9_87d0_d3cf3cfaa110</choiceReferences>
+            <choiceReferences>c_7e66a032_587d_40fc_899e_985bd50e559d</choiceReferences>
+            <choiceReferences>c_ee8ae130_bb32_4934_89b8_855ee019ae1f</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimePicklist</extensionName>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-family: Chivo, sans-serif; font-size: 16px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;1. Where we can use Lightning Components?&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>We can use Lightning Components in the following places:</helpText>
+            <isRequired>false</isRequired>
+        </fields>
+        <pausedText>To pick up where you left off, refresh this page, or open the survey again.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_d44ed483_2921_4983_a43c_0f01dbc2b498</name>
+        <label>Page 5</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_75e74560_990b_4b6a_b25f_97e2e11e769e</targetReference>
+        </connector>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_e5036989_25c6_420c_ad01_7adb501a1937</name>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimeShortText</extensionName>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-family: Chivo, sans-serif; font-size: 16px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;5. What are attributes? What are their required parameters?&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentInput</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <pausedText>To pick up where you left off, refresh this page, or open the survey again.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_f82ef48b_5bdd_423f_8273_aed08d493766</name>
+        <label>Page 4</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_d44ed483_2921_4983_a43c_0f01dbc2b498</targetReference>
+        </connector>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_5c711fe7_b8f5_4874_a9b6_1d1d359d0760</name>
+            <choiceReferences>c_a79e5b27_bb4d_41fd_a40f_0ed0ba2d4f03</choiceReferences>
+            <choiceReferences>c_c636cbc5_11dc_456d_a8c6_903cf89918e4</choiceReferences>
+            <choiceReferences>c_f217b743_3907_4e6f_93ba_9f2b59495bd2</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimePicklist</extensionName>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-family: Chivo, sans-serif; font-size: 16px;&quot;&gt;4. What options are there for Lightning Record Page assignment?&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>“Lightning Pages” can be assigned at three different levels:</helpText>
+            <isRequired>false</isRequired>
+        </fields>
+        <pausedText>To pick up where you left off, refresh this page, or open the survey again.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>welcome_page</name>
+        <label>Welcome Page</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>p_a7fd7b71_1e5d_4607_991d_0c8a6b95e307</targetReference>
+        </connector>
+        <fields>
+            <name>welcome_question</name>
+            <extensionName>survey:runtimeWelcome</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>{!welcome_question_lref_tt}</stringValue>
+                </value>
+            </inputParameters>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>welcome_page</startElementReference>
+    <status>Draft</status>
+    <textTemplates>
+        <name>thankYouDescriptionTextTemplate</name>
+        <text></text>
+    </textTemplates>
+    <textTemplates>
+        <name>thankYouLabelTextTemplate</name>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;https://c.cs126.content.force.com/file-asset-public/congratulations?oid=00D3L0000008jim&amp;amp;v=1&quot; alt=&quot;congratulations&quot;&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;Congratulations!&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Your answers are sent to the mentor. Please wait for the feedback we will prepare for you.&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>welcome_question_lref_tt</name>
+        <text>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;img src=&quot;https://c.cs126.content.force.com/file-asset-public/lightningicon?oid=00D3L0000008jim&amp;amp;v=1&quot; alt=&quot;lightning-icon&quot;&gt;&lt;/b&gt;&lt;b&gt; &lt;/b&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;Lightning Experience Knowledge Check&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt; After finishing all tasks described in the trailhead, check your knowledge of it. &lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-1&quot; style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Answer a few questions, if you have any problems return into materials. &lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Every question has one answer, if there are multiple answers, there will be the information about it next to the question. Good luck!&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>guestUserLang</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>invitationId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>previewMode</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>thankYouDescription</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>{!thankYouDescriptionTextTemplate}</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>thankYouLabel</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>{!thankYouLabelTextTemplate}</stringValue>
+        </value>
+    </variables>
+</Flow>

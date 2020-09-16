@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Student support</name>
+    <queueMembers>
+        <users>
+            <user>admin@placzabaw.com</user>
+            <user>adminms08092929@clorce.com</user>
+            <user>paulina.jaworska08092020@clorce.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Student_support</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>LiveChatTranscript</sobjectType>
+    </queueSobject>
+</Queue>

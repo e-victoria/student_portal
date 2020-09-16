@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Module</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Modules</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assigned Secondary Mentor --></label>
+        <name>Assigned_Secondary_Mentor__c</name>
+        <relationshipLabel><!-- Modules (Assigned Secondary Mentor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Module Description --></label>
+        <name>Module_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Module Duration in Days --></label>
+        <name>Module_Duration_in_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned Mentor --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Modules (Assigned Mentor) --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Module Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

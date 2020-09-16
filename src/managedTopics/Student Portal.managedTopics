@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Student Portal.Content:General Course Information</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>General Course Information</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Student Portal.Featured:General Course Information</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>General Course Information</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Student Portal.Featured:Pre-boarding Process</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Pre-boarding Process</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Student Portal.Featured:Salesforce Knowledge</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Salesforce Knowledge</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Student Portal.Navigational:General Course Information</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>General Course Information</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Student Portal.Navigational:Pre-boarding Process</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Pre-boarding Process</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Student Portal.Navigational:Salesforce Knowledge</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Salesforce Knowledge</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

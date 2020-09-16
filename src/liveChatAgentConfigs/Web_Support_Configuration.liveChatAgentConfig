@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatAgentConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>Admin</profile>
+            <profile>Internal Coordinator</profile>
+        </profiles>
+        <users>
+            <user>adminms08092929@clorce.com</user>
+            <user>admin@placzabaw.com</user>
+        </users>
+    </assignments>
+    <enableAgentFileTransfer>false</enableAgentFileTransfer>
+    <enableAgentSneakPeek>false</enableAgentSneakPeek>
+    <enableAssistanceFlag>false</enableAssistanceFlag>
+    <enableAutoAwayOnDecline>false</enableAutoAwayOnDecline>
+    <enableAutoAwayOnPushTimeout>false</enableAutoAwayOnPushTimeout>
+    <enableChatConferencing>false</enableChatConferencing>
+    <enableChatMonitoring>true</enableChatMonitoring>
+    <enableChatTransferToAgent>true</enableChatTransferToAgent>
+    <enableChatTransferToButton>true</enableChatTransferToButton>
+    <enableChatTransferToSkill>true</enableChatTransferToSkill>
+    <enableLogoutSound>false</enableLogoutSound>
+    <enableNotifications>true</enableNotifications>
+    <enableRequestSound>false</enableRequestSound>
+    <enableSneakPeek>false</enableSneakPeek>
+    <enableVisitorBlocking>false</enableVisitorBlocking>
+    <enableWhisperMessage>true</enableWhisperMessage>
+    <label>Web Support Configuration</label>
+    <supervisorSkills>
+        <skill>Web_Support</skill>
+    </supervisorSkills>
+    <transferableButtons>
+        <button>Chat_Agents</button>
+    </transferableButtons>
+    <transferableSkills>
+        <skill>Web_Support</skill>
+    </transferableSkills>
+</LiveChatAgentConfig>

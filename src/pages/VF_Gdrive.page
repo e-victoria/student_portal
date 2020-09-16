@@ -1,0 +1,101 @@
+<apex:page controller="GDriveForSalesforceCtrl" showHeader="true" sidebar="false" standardStylesheets="false" docType="html-5.0">
+    <apex:slds />
+
+    <style>
+        .slds-scope .slds-icon–xx-large {
+            height : 10rem;
+            width : 10rem;
+        }
+        
+        .open-gdrive {
+            display: inline-block;
+            opacity: 0.5;
+        }
+        
+        .open-gdrive:hover {
+            cursor: pointer;
+            opacity: 1;
+        }
+        
+        .noSidebarCell,
+        .sidebarCell .fixed {
+            padding: 0;
+        }
+        
+        a[name='skiplink'] {
+            display: none;
+        }
+    </style>
+    
+    <script type="text/javascript">
+        var picker;
+        
+        function onApiLoad() {
+            gapi.load( "picker", { "callback" : createPicker } );
+        }
+        
+        function createPicker() {
+            picker = new google.picker.PickerBuilder()
+                    .addView( new google.picker.DocsUploadView().setParent( "{!$Setup.Google_Settings__c.Folder_Id__c}" ) )
+                    .addView( google.picker.ViewId.DOCS )
+                    .setOAuthToken( "{!accessToken}" )
+                    .setCallback( pickerCallback )
+                    .build();
+        }
+        
+        function pickerCallback( data ) {
+            if( data[google.picker.Response.ACTION] === google.picker.Action.PICKED ) {
+                var downloadUrl;
+                
+                if( data.viewToken[0] === "upload" ) {
+                    downloadUrl = data[google.picker.Response.DOCUMENTS][0].downloadUrl;
+                }
+                else {
+                    downloadUrl = data[google.picker.Response.DOCUMENTS][0].url;
+                }
+                
+                document.getElementById( "result" ).innerHTML = downloadUrl;
+            
+                document.getElementById( "result" ).setAttribute( "href", downloadUrl );
+            }
+        }
+        
+        function uploadFiles() {
+            picker.setVisible( true );
+        }
+    </script>
+    
+    <div class="slds-scope">
+        <div class="slds-page-header">
+            <div class="slds-media">
+                <div class="slds-media__figure">
+                    <span class="slds-icon_container slds-icon-action-add-file slds-icon_container–circle">
+                        <svg class="slds-icon slds-icon–small" aria-hidden="true">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS,'/assets/icons/action-sprite/svg/symbols.svg#add_file')}" />
+                        </svg>
+                    </span>
+                </div>
+                <div class="slds-media__body">
+                    <h1 class="slds-page-header__title slds-truncate slds-align-middle" title="Google Drive for Salesforce">Google Drive for Salesforce</h1>
+                    <p class="slds-text-body_small slds-line-height_reset">Access GDrive w/o Authentication</p>
+                </div>
+            </div>
+        </div>
+        <div class="slds-text-align–center slds-m-top–x-large">
+            <div class="open-gdrive" onclick="uploadFiles()">
+                <svg class="slds-icon slds-icon–xx-large slds-icon-standard-file slds-p-around–small" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS,'/assets/icons/utility-sprite/svg/symbols.svg#unlock')}"></use>
+                </svg>
+            </div>
+            <a onclick="uploadFiles()">
+                <div class="slds-text-heading_large">Open GDrive</div>
+            </a>
+            
+            <br/>
+            <a id="result" target="_blank"></a>
+        
+           
+            <script type="text/javascript" src="https://apis.google.com/js/api.js?onload=onApiLoad"></script>
+        </div>
+    </div>
+</apex:page>
