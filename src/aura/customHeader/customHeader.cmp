@@ -1,0 +1,18 @@
+<aura:component description="Header" extends="forceCommunity:navigationMenuBase" implements="forceCommunity:availableForAllPageTypes" access="global">
+    <div class="header__wrapper">
+        <div class="logo">
+            <img src="{!'sfsites/c' + $Resource.logo2}"/>
+        </div>
+        <div class="nav__wrapper">
+            <ul class="nav__list" onclick="{!c.onClick}">
+                <aura:iteration items="{!v.menuItems}" var="item">
+                    <li class="{!item.active ? 'slds-is-active' : ''}">
+                        <a href="javascript:void(0);" data-menu-item-id="{!item.id}" class="nav__link">
+                            {!item.label}
+                        </a>
+                    </li>
+                </aura:iteration>
+            </ul>
+        </div>
+    </div>
+</aura:component>

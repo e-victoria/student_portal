@@ -1,0 +1,44 @@
+.THIS {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    background-image: url("../resourses/Screenshot 2020-09-15 at 16.36.42.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00C69A;
+}
+
+.THIS .header__wrapper {
+    display: flex;
+}
+
+.THIS .nav__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.THIS .logo {
+    font-size: 26px;
+    color: #ffffff;
+    margin-right: 150px;
+}
+
+.THIS .nav__list {
+    display: flex;
+}
+
+.THIS .nav__list .slds-is-active {
+    text-decoration: underline;
+}
+
+.THIS .nav__list li:not(:last-child) {
+    margin-right: 35px;
+}
+
+.THIS .nav__link {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
