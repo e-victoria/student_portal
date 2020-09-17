@@ -1,0 +1,11 @@
+<aura:component description="iFrameComponent"  implements="flexipage:availableForAllPageTypes,force:hasRecordId,forceCommunity:availableForAllPageTypes" controller="iFrameComponentController" access="global">
+    <aura:attribute name="skill" type="Object" access="public" description=""/>
+    <aura:attribute name="Exercises" type="Object" />
+    <aura:attribute name="output" type="String" />
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <div>
+        <aura:iteration items="{!v.Exercises}" var="item">
+            <lightning:button class="btn" label="Open exercise link" name="{!item.Exercise_link__c}" onclick="{! c.handleClick }"/>
+        </aura:iteration>
+    </div>
+</aura:component>
